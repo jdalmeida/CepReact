@@ -23,7 +23,7 @@ jobs:
         uses: bahmutov/npm-install@v1
 
       - name: Build project
-        run: npm run dev buildt
+        run: npm run dev build
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2

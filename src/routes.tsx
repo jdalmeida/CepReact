@@ -11,9 +11,9 @@ export function AppRoutes() {
     return (
         <Router>
             <Routes>
-                <Route path="/home" element={<App/>}/>
-                <Route path="/clima" element={<ClimaApp/>} />
-                <Route path="/cep" element={<Cep/>}/>
+                <Route path="/CepReact/home" element={<App/>}/>
+                <Route path="/CepReact/clima" element={<ClimaApp/>} />
+                <Route path="/CepReact/cep" element={<Cep/>}/>
             </Routes>
         </Router>
     )
